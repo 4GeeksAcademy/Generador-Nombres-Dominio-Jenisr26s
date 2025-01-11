@@ -2,4 +2,10 @@ let pronoun = ['the', 'our'];
 let adj = ['great', 'big'];
 let noun = ['jogger', 'racoon'];
 
-console.log(pronoun + adj + noun + ".con")
+for (let p of pronoun) {
+  for (let a of adj) {
+    for (let n of noun) {
+      console.log(p + a + n + '.com');
+    }
+  }
+}
